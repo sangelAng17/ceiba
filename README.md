@@ -32,7 +32,7 @@ ID Nombre Monto mínimo Categoría
 5 FPV_BTG_PACTUAL_DINAMICA COP $100.000 FPV
 
 
-##Actividades solicitadas:
+## Actividades solicitadas:
 1. Tecnologías sugeridas: Python con FastAPI, .NET Core, Java Springboot o Express -
 Node.js
 2. Diseñar un modelo de datos NoSQL que soporte las operaciones.
