@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: btg-fondos-ms
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/btg-fondos
