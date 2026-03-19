@@ -80,6 +80,9 @@ las sucursales que visitan.
 
 <img width="1083" height="591" alt="image" src="https://github.com/user-attachments/assets/0b9496d5-8802-47c4-bc77-23f5e1746d78" />
 
+<img width="669" height="393" alt="image" src="https://github.com/user-attachments/assets/e511f704-bfe0-408d-b0ce-f19a3a0271af" />
+
+
 ### Consumo Get
 
 <img width="1083" height="587" alt="image" src="https://github.com/user-attachments/assets/d289e63a-a582-4fe2-b813-721c670f3784" />
