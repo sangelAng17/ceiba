@@ -71,6 +71,17 @@ las sucursales que visitan.
 
 <img width="1213" height="585" alt="image" src="https://github.com/user-attachments/assets/16aa5b9f-fc9d-4213-b63f-ed550de0aea4" />
 
+<img width="993" height="336" alt="image" src="https://github.com/user-attachments/assets/83ebd760-c81e-48e7-989b-815e8599be4a" />
+
+### Consumo Delete 
+<img width="1071" height="33" alt="image" src="https://github.com/user-attachments/assets/0ef5c344-16fd-4193-91b7-5bc7b89c331c" />
+
+<img width="1083" height="590" alt="image" src="https://github.com/user-attachments/assets/771e76d0-0f15-477e-9ac0-ced9727124ea" />
+
+### Consumo Get
+
+<img width="1083" height="587" alt="image" src="https://github.com/user-attachments/assets/d289e63a-a582-4fe2-b813-721c670f3784" />
+
 
 ### MongoDB
 <img width="370" height="348" alt="image" src="https://github.com/user-attachments/assets/9bef30e1-879a-4cc1-808b-c2b020636427" />
