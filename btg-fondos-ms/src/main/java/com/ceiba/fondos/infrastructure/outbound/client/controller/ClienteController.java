@@ -65,6 +65,14 @@ public class ClienteController {
     }
 
 
+    @Operation(
+            summary = "consulta de las transacciones del proceso",
+            description = "Servicio usado para la onsulta de las transacciones del proceso"
+    )
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "consulta realizada"),
+            @ApiResponse(responseCode = "400", description = "Parámetro inválido")
+    })
     @GetMapping("/clientes/{clienteId}/transacciones")
     public ResponseEntity<List<Transaccion>> historial(@PathVariable String clienteId) {
 
