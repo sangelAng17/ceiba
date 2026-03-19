@@ -59,3 +59,19 @@ Internal Use Only
 Consulta solicitada:
 Obtener los nombres de los clientes que tienen inscrito algún producto disponible solo en
 las sucursales que visitan.
+
+## Pruebas funcionales 
+
+<img width="1317" height="495" alt="image" src="https://github.com/user-attachments/assets/8ea1953e-2f03-44ad-aba1-4503de7873b8" />
+
+
+### Consumo Post 
+<img width="1085" height="77" alt="image" src="https://github.com/user-attachments/assets/fb5b310c-c576-4a01-b5e0-6b509c9dbf66" />
+
+
+<img width="1213" height="585" alt="image" src="https://github.com/user-attachments/assets/16aa5b9f-fc9d-4213-b63f-ed550de0aea4" />
+
+
+### MongoDB
+<img width="370" height="348" alt="image" src="https://github.com/user-attachments/assets/9bef30e1-879a-4cc1-808b-c2b020636427" />
+
