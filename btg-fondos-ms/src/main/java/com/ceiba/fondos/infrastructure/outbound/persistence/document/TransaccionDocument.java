@@ -1,15 +1,15 @@
-package com.ceiba.fondos.domain.model;
+package com.ceiba.fondos.infrastructure.outbound.persistence.document;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.time.LocalDate;
 
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Transaccion {
+public class TransaccionDocument {
 
     private String tipo;
     private Integer fondoId;

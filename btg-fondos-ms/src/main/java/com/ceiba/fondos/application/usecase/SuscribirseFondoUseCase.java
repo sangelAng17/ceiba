@@ -25,6 +25,12 @@ public class SuscribirseFondoUseCase {
         clienteRepository.guardar(cliente);
     }
 
+    public void cancelar(String clienteId, Integer fondoId){
+        Cliente cliente = clienteRepository.obtener(clienteId);
+        cliente.cancelarSuscripcion(fondoId);
+        clienteRepository.guardar(cliente);
+    }
+
     private Fondo obtenerFondo(Integer fondoId) {
 
         return switch (fondoId) {

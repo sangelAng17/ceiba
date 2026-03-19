@@ -1,5 +1,6 @@
 package com.ceiba.fondos.infrastructure.outbound.persistence.document;
 
+import com.ceiba.fondos.domain.model.Transaccion;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,4 +21,5 @@ public class ClienteDocument {
     private String nombre;
     private double saldo;
     private List<SuscripcionDocument> suscripciones;
+    private List<TransaccionDocument> transacciones;
 }
