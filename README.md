@@ -92,5 +92,25 @@ las sucursales que visitan.
 ### MongoDB
 <img width="370" height="348" alt="image" src="https://github.com/user-attachments/assets/9bef30e1-879a-4cc1-808b-c2b020636427" />
 
-![Uploading image.png…]()
+## PUESTA 2 PUNTO 
 
+<img width="826" height="550" alt="image" src="https://github.com/user-attachments/assets/6a502d02-127b-48c0-bb16-875f1f432317" />
+
+```sql
+
+SELECT DISTINCT cl.nombre
+FROM cliente cl
+JOIN inscripcion ins ON ins.idCliente = cl.id
+JOIN disponibilidad d ON d.idProducto = ins.idProducto
+JOIN visitan v ON v.idCliente = cl.id
+WHERE d.idSucursal = v.idSucursal
+AND NOT EXISTS (
+    SELECT 1
+    FROM disponibilidad d2
+    WHERE d2.idProducto = ins.idProducto
+    AND d2.idSucursal NOT IN (
+        SELECT v2.idSucursal
+        FROM visitan v2
+        WHERE v2.idCliente = cl.id
+    )
+);
